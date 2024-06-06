@@ -1,0 +1,46 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+    
+  "compileOnSave": false,
+  "compilerOptions": {
+    "resolveJsonModule":true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2020",
+      "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "es2020",
+    "paths":{
+"@Core/*":["src/app/Core/*"],
+"@Modules/*":["src/app/Modules/*"],
+"@Shared/*":["src/app/Shared/*"],
+    },
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+       "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+   
+  }
+}
