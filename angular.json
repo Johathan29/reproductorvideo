@@ -23,17 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              
-              "src/styles.css",
-              "node_modules/slick-carousel/slick/slick.scss",
-              "node_modules/slick-carousel/slick/slick-theme.scss"
-            
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/slick-carousel/slick/slick.min.js",
-              "./node_modules/hammerjs/hammer.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -98,12 +90,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/igniteui-angular/styles/igniteui-angular.css"
+              "src/styles.css"
             ],
-            "scripts": [
-              "./node_modules/hammerjs/hammer.min.js"
-            ]
+            "scripts": []
           }
         }
       }
